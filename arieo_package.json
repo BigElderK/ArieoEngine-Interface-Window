@@ -1,5 +1,5 @@
 {
-    "name": "arieo.engine.interface.window",
+    "name": "ArieoEngine-Interface-Window",
     "description": "Window interface for engine",
     "build_commands":
     [
