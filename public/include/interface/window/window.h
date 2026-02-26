@@ -9,7 +9,6 @@ namespace Arieo::Interface::Window
         virtual std::uint64_t getWindowHandle() = 0;
         virtual Base::Math::Rect<std::uint32_t> getWindowRect() = 0;
         virtual Base::Math::Vector<std::uint32_t, 2> getFramebufferSize() = 0;
-        virtual Base::Interface<IWindowManager> getWindowManager() = 0;
         virtual bool isClosed() = 0;
         virtual Base::StringID getWindowPlatform() = 0;
     };
