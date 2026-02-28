@@ -18,9 +18,9 @@ namespace Arieo::Interface::Window
     {
     public:
         virtual void* getDisplay() = 0;
-        virtual Base::Interop<IWindow> createWindow(std::uint16_t pos_x, std::uint16_t pos_y, std::uint16_t width, std::uint16_t height) = 0;
-        virtual void destroyWindow(Base::Interop<IWindow>) = 0;
+        virtual Base::InteropOld<IWindow> createWindow(std::uint16_t pos_x, std::uint16_t pos_y, std::uint16_t width, std::uint16_t height) = 0;
+        virtual void destroyWindow(Base::InteropOld<IWindow>) = 0;
 
-        virtual Base::Interop<IWindow> getMainWindow() = 0;
+        virtual Base::InteropOld<IWindow> getMainWindow() = 0;
     };
 }
